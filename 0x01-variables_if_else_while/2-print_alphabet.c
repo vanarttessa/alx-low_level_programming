@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+/**
+ * main - A program that prints the alphabet in lowercase.
+ *
+ * Return: always 0 (successful)
+ */
+int main(void)
+{
+	int a;
+
+	for (a = 'A' ; a <= 'Z' ; a++)
+	{
+		putchar(tolower(a));
+	}
+	putchar('\n');
+
+	return (0);
+}

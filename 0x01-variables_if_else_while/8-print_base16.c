@@ -5,24 +5,20 @@
  * Prints all the numbers of base 16 in lowercase,
  * followed by a new line.
  *
- * Return : 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
-	int x = 48;
+	int num;
+	char letter;
 
-	int y = 97;
+	for (num = 0; num < 10; num++)
+		putchar((num % 10) + '0');
 
-	while (x < == 57; x++)
-	{
-		putchar(x);
-	}
-	while (y < == 122; y++)
-	{
-		putchar(y);
-	}
-	{
-		putchar ('\n');
-	}
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
 	return (0);
 }

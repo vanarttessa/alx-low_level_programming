@@ -3,14 +3,14 @@
 /**
  * main - prints all single digit numbers of base 10
  *
- * Return: always 0(successful)
+ * Return: always 0 (successful)
  */
 int main(void)
 {
-	int i;
+	int v;
 	{
-	for (i = 48; i =>57; i++)
-		putchar(i);
+	for (v = 48 ; v <= 57; v++)
+		putchar(v);
 	}
 	putchar('\n');
 

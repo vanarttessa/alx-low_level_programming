@@ -1,27 +1,26 @@
 #include "main.h"
+
+
 /**
- * _putchar - writes the character to standard return value
- *@n: The character to print
+ * print_sign - checking if the number is +ve, -ve or Zero
  *
- * Return:_putchar 1 if +, _putchar 0 if 0, _putchar -1 if -
+ * @n: number to be checked
+ *
+ * Return: 0 if Zero and 1 if +ve and -1 if -ve
  */
 int print_sign(int n)
 {
+
 	if (n > 0)
 	{
-		_putchar("+");
+		_putchar('+');
 		return (1);
 	}
-	else if (n = 0)
+	else if (n < 0)
 	{
-		_putchar(("0");
-		return (0);
-	}
-	else
-	{
-		_putchar(("-")
+		_putchar('-');
 		return (-1);
 	}
-
+	_putchar('0');
 	return (0);
 }
